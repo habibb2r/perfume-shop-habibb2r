@@ -9,7 +9,9 @@ export default {
     extend: {
       fontFamily: {
         myfont: ['Itim', 'sans-serif'],
-        title: ['Fleur De Leah', 'sans-serif']
+        myfont2: ['Delius Swash Caps', 'sans-serif'],
+        title: ['Fleur De Leah', 'sans-serif'],
+
       },
     },
   },

@@ -11,7 +11,7 @@ const Banner = () => {
     <div className="relative">
       <div className="w-full">
         <img
-          className="w-full h-full object-cover hidden md:block"
+          className="w-full h-full object-fill hidden md:block"
           src={coverimg}
           alt=""
         />
@@ -23,7 +23,7 @@ const Banner = () => {
       </div>
 
 
-      <div className="flex justify-center items-center gap-10 absolute top-[30%] w-full">
+      <div className="flex justify-center items-center gap-10 absolute top-[20%] w-full">
         <div className="flex flex-col justify-between items-center gap-5 w-full">
             <h1 className="font-title text-black text-2xl pb-[25%]">Welcome to our store <br /> <span className="ml-5">Enjoy your shopping..!</span></h1>
           <div className="relative">
