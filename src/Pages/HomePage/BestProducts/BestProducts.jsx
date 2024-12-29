@@ -19,7 +19,7 @@ const BestProducts = () => {
         <p>Signature Scent</p>
       </div>
 
-      <div className="px-[2%] py-[3%]">
+      <div className="px-[2%] py-[3%] bg-pink-100">
         <SectionTitle
           title={"The Most Popular and The best scent of the year"}
         ></SectionTitle>
