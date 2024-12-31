@@ -9,9 +9,10 @@ const Navbar = () => {
                     <img className="h-[70px]" src={logo} alt="" />
                 </div>
                 <div className="flex justify-between items-center gap-5 w-full md:text-xl">
-                    <div className="flex justify-center items-center gap-5">
+                    <div className="flex justify-start items-center gap-5">
                         <NavLink>Home</NavLink>
-                        <NavLink>Perfumes</NavLink>
+                        <NavLink to={'/about'}>About</NavLink>
+                        <NavLink>Contact Us</NavLink>
                     </div>
                     <div>
                         <Link>Login</Link>
