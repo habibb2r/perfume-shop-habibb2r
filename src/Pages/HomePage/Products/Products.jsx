@@ -20,7 +20,7 @@ const Products = () => {
             <div>
                 <SectionTitle title={"Experience the Art of Perfume – Crafted for the Connoisseur"}></SectionTitle>
                 <div>
-                    <div className="flex justify-center items-center font-myfont font-semibold text-xl py-[2%]">
+                    <div className="flex justify-center items-center font-myfont font-semibold md:text-xl py-[2%]">
                         {['All', 'New', 'Best', 'Top'].map(cat => (
                             <button
                                 key={cat}
@@ -36,7 +36,7 @@ const Products = () => {
                     {isLoading ? (
                         <div className="flex justify-center items-center py-[5%]"><div className="loading loading-spinner loading-lg"></div></div>
                     ) : (
-                        <div className="grid grid-cols-3 gap-10 px-[15%]">
+                        <div className="grid md:grid-cols-3 gap-10 px-[15%]">
                             {products?.results.map(product => (
                                 <Link to={`/perfumedetails/${product._id}`} className="bg-white shadow-lg flex flex-col justify-center items-center" key={product._id}>
                                     <img className="h-[300px] shadow-inner hover:shadow-2xl hover:scale-105 ease-in-out duration-300" src={product.image} alt={product.name} />

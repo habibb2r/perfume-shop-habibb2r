@@ -68,9 +68,9 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="pt-[10%] pb-[5%]">
+    <div className="pt-[20%] md:pt-[10%] pb-[5%]">
       <SectionTitle title={"A Symphony of Aroma and Artistry"}></SectionTitle>
-      <div className=" grid grid-cols-2 gap-10 px-[3%] py-[2%]">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 px-[3%] py-[2%]">
         <div className="bg-purple-50 px-[10%] py-[3%]">
           <div>
             <Swiper
@@ -150,7 +150,7 @@ const ProductDetails = () => {
       <div className="px-[3%]">
         <div className="py-[2%]">
           <h1 className="font-myfont font-semibold text-2xl border-b-2 w-[50%] py-[2%]">Perfume Description</h1>
-          <p className="font-myfont text-justify w-[80%]">{details?.description}</p>
+          <p className="font-myfont text-justify md:w-[80%]">{details?.description}</p>
         </div>
         <h1 className="font-myfont font-semibold text-2xl border-b-2 w-[50%] py-[2%]">Reviews</h1>
         <div className="flex flex-col justify-start items-start gap-5 pt-[2%]">

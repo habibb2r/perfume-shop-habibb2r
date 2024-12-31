@@ -3,14 +3,14 @@ import about2 from "../../assets/about2.jpg";
 
 const About = () => {
   return (
-    <div className="pt-[10%] pb-[5%] px-[2%]">
+    <div className="pt-[20%] md:pt-[10%] pb-[5%] px-[2%]">
       <div>
         <div>
-          <h1 className="text-3xl font-myfont font-semibold py-[2%] border-b-[2px] w-1/3">
+          <h1 className="text-3xl font-myfont font-semibold py-[2%] border-b-[2px] md:w-1/3">
             About Us - Perfume Shop
           </h1>
         </div>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-10">
           <p className="text-justify font-myfont px-[3%] py-[2%]">
             Welcome to our Perfume Store, your ultimate destination for the best
             and most popular perfumes. At our store, we believe that a fragrance
@@ -34,7 +34,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-10">
           <div className="flex justify-center items-center px-[3%] py-[2%] bg-purple-50">
             <img
               className="h-[250px] rounded-md shadow-xl shadow-purple-500"
