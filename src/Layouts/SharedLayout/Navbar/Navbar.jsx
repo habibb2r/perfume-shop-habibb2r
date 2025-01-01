@@ -22,7 +22,7 @@ const Navbar = () => {
                         <NavLink>Contact Us</NavLink>
                     </div>
                     <div>
-                        <Link>Login</Link>
+                        <Link to='/login' className="px-3 py-2 bg-black text-white rounded-2xl">Login</Link>
                     </div>
                 </div>
                 
