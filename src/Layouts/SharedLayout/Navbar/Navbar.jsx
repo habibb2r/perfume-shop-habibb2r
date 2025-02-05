@@ -7,7 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
     return (
-        <div className="fixed w-full mx-auto max-w-screen-2xl  bg-yellow-200 bg-opacity-80 z-10">
+        <div className="fixed w-full mx-auto  bg-yellow-200 bg-opacity-80 z-10">
             <div className="flex justify-between items-center md:gap-5 px-[3%] py-[1.5%] font-myfont">
                 <div className="w-full">
                     <img className="h-[55px] md:h-[70px]" src={logo} alt="" />
